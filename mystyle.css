@@ -1,0 +1,64 @@
+@media (min-width: 360px){
+    header{
+        background-color: rgb(51, 96, 220);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    header{
+        background-image: url(./images/citlogo.png);
+        background-repeat: no-repeat;
+        background-size: 6%;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        margin: 10px;
+        padding: 5px;
+        color: white;
+        font-size: 16px;
+    }
+    a:hover{
+        background-color: rgb(21, 158, 103);
+        color: black;
+    }
+    h1{
+        color:white;
+        padding-left: 90px;
+    }
+    }
+    @media (min-width:768px){
+        header{
+            flex-direction: row;
+            background-color: rgb(93, 143, 192);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+    }
+    .h2{
+        color: black;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .cl{
+        color:black
+    }
+    .main-user{
+        display:flex;
+        flex-direction:column;  
+    }
+    img{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+        background-color: lightgrey;
+        margin-top: 90px;
+    }
+    
